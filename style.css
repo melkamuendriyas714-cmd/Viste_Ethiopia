@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.headercontainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+}
+.navigationcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.navigationcontainer h1{
+    font-size: 1.5rem;
+}
+.headerflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+.logocontainer img{
+    width: 5rem;
+    height: 3rem;
+}
+.menubar ul{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.menubar ul li{
+    list-style: none;
+    
+}
+.menubar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
